@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ylk2z8XXvC3raRAeUBwFZp6k7uZKOV5Ujn8NC12FqH788lr4njrfYKLjE2AVDr0M/ooFB2tKL91mNE5NhYKXmA==",
+  "dgSpecHash": "p50YpQtuJDdlFMQuyZ7SZ/oKFcBlj8aq4tF3Z9N5F2oc+bcsPHG6pQrSCK5Yu9QJ7Cx5ysJTLyRy9m5MvBkDYA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Daniel\\Documents\\GitHub\\UserLoginCRUDWebApp\\UserLoginCRUDWebApp\\UserLoginCRUDWebApp.csproj",
+  "projectFilePath": "C:\\Users\\Daniel\\Documents\\GitHub\\UserLoginCRUDWebApp\\CustomerLoginCRUDWebApp\\Source\\UserLoginCRUDWebApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Daniel\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Daniel\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

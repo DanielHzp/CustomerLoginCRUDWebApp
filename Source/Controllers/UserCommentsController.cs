@@ -26,6 +26,13 @@ namespace UserLoginCRUDWebApp.Controllers
                           View(await _context.UserComment.ToListAsync()) :
                           Problem("Entity set 'ApplicationDbContext.UserComment'  is null.");
         }
+        // GET: UserComments/Show search form
+        public async Task<IActionResult> SearchFormView()
+        {
+            //We need to create search form VIEW in views folder
+            return View(); 
+                        
+        }
 
         // GET: UserComments/Details/5
         public async Task<IActionResult> Details(int? id)

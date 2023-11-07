@@ -9,65 +9,69 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = UserLoginCRUDWebApp
 build_property.RootNamespace = UserLoginCRUDWebApp
-build_property.ProjectDir = C:\Users\Daniel\Documents\GitHub\UserLoginCRUDWebApp\UserLoginCRUDWebApp\
+build_property.ProjectDir = C:\Users\Daniel\Documents\GitHub\UserLoginCRUDWebApp\CustomerLoginCRUDWebApp\Source\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Daniel\Documents\GitHub\UserLoginCRUDWebApp\UserLoginCRUDWebApp
+build_property.MSBuildProjectDirectory = C:\Users\Daniel\Documents\GitHub\UserLoginCRUDWebApp\CustomerLoginCRUDWebApp\Source
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Daniel/Documents/GitHub/UserLoginCRUDWebApp/UserLoginCRUDWebApp/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/Daniel/Documents/GitHub/UserLoginCRUDWebApp/CustomerLoginCRUDWebApp/Source/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Daniel/Documents/GitHub/UserLoginCRUDWebApp/UserLoginCRUDWebApp/Views/Home/Index.cshtml]
+[C:/Users/Daniel/Documents/GitHub/UserLoginCRUDWebApp/CustomerLoginCRUDWebApp/Source/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Daniel/Documents/GitHub/UserLoginCRUDWebApp/UserLoginCRUDWebApp/Views/Home/Privacy.cshtml]
+[C:/Users/Daniel/Documents/GitHub/UserLoginCRUDWebApp/CustomerLoginCRUDWebApp/Source/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Daniel/Documents/GitHub/UserLoginCRUDWebApp/UserLoginCRUDWebApp/Views/Shared/Error.cshtml]
+[C:/Users/Daniel/Documents/GitHub/UserLoginCRUDWebApp/CustomerLoginCRUDWebApp/Source/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Daniel/Documents/GitHub/UserLoginCRUDWebApp/UserLoginCRUDWebApp/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/Daniel/Documents/GitHub/UserLoginCRUDWebApp/CustomerLoginCRUDWebApp/Source/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Daniel/Documents/GitHub/UserLoginCRUDWebApp/UserLoginCRUDWebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Daniel/Documents/GitHub/UserLoginCRUDWebApp/CustomerLoginCRUDWebApp/Source/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Daniel/Documents/GitHub/UserLoginCRUDWebApp/UserLoginCRUDWebApp/Views/UserComments/Create.cshtml]
+[C:/Users/Daniel/Documents/GitHub/UserLoginCRUDWebApp/CustomerLoginCRUDWebApp/Source/Views/UserComments/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckNvbW1lbnRzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Daniel/Documents/GitHub/UserLoginCRUDWebApp/UserLoginCRUDWebApp/Views/UserComments/Delete.cshtml]
+[C:/Users/Daniel/Documents/GitHub/UserLoginCRUDWebApp/CustomerLoginCRUDWebApp/Source/Views/UserComments/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckNvbW1lbnRzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Daniel/Documents/GitHub/UserLoginCRUDWebApp/UserLoginCRUDWebApp/Views/UserComments/Details.cshtml]
+[C:/Users/Daniel/Documents/GitHub/UserLoginCRUDWebApp/CustomerLoginCRUDWebApp/Source/Views/UserComments/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckNvbW1lbnRzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Daniel/Documents/GitHub/UserLoginCRUDWebApp/UserLoginCRUDWebApp/Views/UserComments/Edit.cshtml]
+[C:/Users/Daniel/Documents/GitHub/UserLoginCRUDWebApp/CustomerLoginCRUDWebApp/Source/Views/UserComments/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckNvbW1lbnRzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Daniel/Documents/GitHub/UserLoginCRUDWebApp/UserLoginCRUDWebApp/Views/UserComments/Index.cshtml]
+[C:/Users/Daniel/Documents/GitHub/UserLoginCRUDWebApp/CustomerLoginCRUDWebApp/Source/Views/UserComments/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckNvbW1lbnRzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Daniel/Documents/GitHub/UserLoginCRUDWebApp/UserLoginCRUDWebApp/Views/_ViewImports.cshtml]
+[C:/Users/Daniel/Documents/GitHub/UserLoginCRUDWebApp/CustomerLoginCRUDWebApp/Source/Views/UserComments/SearchFormView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckNvbW1lbnRzXFNlYXJjaEZvcm1WaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Daniel/Documents/GitHub/UserLoginCRUDWebApp/CustomerLoginCRUDWebApp/Source/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Daniel/Documents/GitHub/UserLoginCRUDWebApp/UserLoginCRUDWebApp/Views/_ViewStart.cshtml]
+[C:/Users/Daniel/Documents/GitHub/UserLoginCRUDWebApp/CustomerLoginCRUDWebApp/Source/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Daniel/Documents/GitHub/UserLoginCRUDWebApp/UserLoginCRUDWebApp/Views/Shared/_Layout.cshtml]
+[C:/Users/Daniel/Documents/GitHub/UserLoginCRUDWebApp/CustomerLoginCRUDWebApp/Source/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-tlsclmenea

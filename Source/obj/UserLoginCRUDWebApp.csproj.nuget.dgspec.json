@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Daniel\\Documents\\GitHub\\UserLoginCRUDWebApp\\UserLoginCRUDWebApp\\UserLoginCRUDWebApp.csproj": {}
+    "C:\\Users\\Daniel\\Documents\\GitHub\\UserLoginCRUDWebApp\\CustomerLoginCRUDWebApp\\Source\\UserLoginCRUDWebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Daniel\\Documents\\GitHub\\UserLoginCRUDWebApp\\UserLoginCRUDWebApp\\UserLoginCRUDWebApp.csproj": {
+    "C:\\Users\\Daniel\\Documents\\GitHub\\UserLoginCRUDWebApp\\CustomerLoginCRUDWebApp\\Source\\UserLoginCRUDWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Daniel\\Documents\\GitHub\\UserLoginCRUDWebApp\\UserLoginCRUDWebApp\\UserLoginCRUDWebApp.csproj",
+        "projectUniqueName": "C:\\Users\\Daniel\\Documents\\GitHub\\UserLoginCRUDWebApp\\CustomerLoginCRUDWebApp\\Source\\UserLoginCRUDWebApp.csproj",
         "projectName": "UserLoginCRUDWebApp",
-        "projectPath": "C:\\Users\\Daniel\\Documents\\GitHub\\UserLoginCRUDWebApp\\UserLoginCRUDWebApp\\UserLoginCRUDWebApp.csproj",
+        "projectPath": "C:\\Users\\Daniel\\Documents\\GitHub\\UserLoginCRUDWebApp\\CustomerLoginCRUDWebApp\\Source\\UserLoginCRUDWebApp.csproj",
         "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Daniel\\Documents\\GitHub\\UserLoginCRUDWebApp\\UserLoginCRUDWebApp\\obj\\",
+        "outputPath": "C:\\Users\\Daniel\\Documents\\GitHub\\UserLoginCRUDWebApp\\CustomerLoginCRUDWebApp\\Source\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
