@@ -1,5 +1,5 @@
 ﻿@model IEnumerable<UserLoginCRUDWebApp.Models.UserComment>
-
+@*IEnumerable means this is a list of usercomment objects*@
 @{
     ViewData["Title"] = "Index";
 }
@@ -15,21 +15,23 @@
             <th>
                 @Html.DisplayNameFor(model => model.CommentDescription)
             </th>
-            <th>
+            @*<th>
                 @Html.DisplayNameFor(model => model.Details)
             </th>
+            *@
             <th></th>
         </tr>
     </thead>
     <tbody>
+@*GENERATE EACH ROW OF THE TABLE*@
 @foreach (var item in Model) {
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.CommentDescription)
             </td>
-            <td>
+            @*<td>
                 @Html.DisplayFor(modelItem => item.Details)
-            </td>
+            </td>*@
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
                 <a asp-action="Details" asp-route-id="@item.Id">Details</a> |

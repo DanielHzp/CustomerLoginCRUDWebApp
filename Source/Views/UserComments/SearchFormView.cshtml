@@ -1,16 +1,20 @@
-﻿@model UserLoginCRUDWebApp.Models.UserComment
-
-<h4>UserComment</h4>
+﻿
+@*@model UserLoginCRUDWebApp.Models.UserComment*@
+@*@model declaration deleted because we dont have to create an object of user comments*@
+<h4>Search User Comments</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="SearchFormView">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-           
+        @*The action must NOT be display the search form again*@
+        @*It must show the search button result, so we call a method from the controller*@
+        <form asp-action="DisplaySearchResults">
+            
+            @*We only want one input box for data entry, we don't take into account the user comment model here*@
             <div class="form-group">
-                <label asp-for="Details" class="control-label"></label>
-                <input asp-for="Details" class="form-control" />
-                <span asp-validation-for="Details" class="text-danger"></span>
+                @*SearchInput is the argument of the DisplaySearchResults method of the controller*@
+                <label for="SearchInput" class="control-label"></label>
+                <input name="SearchInput" class="form-control" />
+                
             </div>
             <div class="form-group">
                 <input type="submit" value="Search" class="btn btn-primary" />
@@ -23,6 +27,4 @@
     <a asp-action="Index">Back to List</a>
 </div>
 
-@section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-}
+

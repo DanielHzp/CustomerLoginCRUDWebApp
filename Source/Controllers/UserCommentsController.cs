@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -20,18 +21,34 @@ namespace UserLoginCRUDWebApp.Controllers
         }
 
         // GET: UserComments
+        //Item that is going to show all comments
         public async Task<IActionResult> Index()
         {
               return _context.UserComment != null ? 
                           View(await _context.UserComment.ToListAsync()) :
                           Problem("Entity set 'ApplicationDbContext.UserComment'  is null.");
         }
+
+
         // GET: UserComments/Show search form
+        //If the URL contains this method name, the following command is executed with this controller
         public async Task<IActionResult> SearchFormView()
         {
             //We need to create search form VIEW in views folder
-            return View(); 
+            return View(); //Go find the view with given name
                         
+        }
+        // POST: UserComments/Show search form RESULTS
+        //If the URL contains this method name, the following command is executed with this controller
+       // public string DisplaySearchResults(String SearchInput)
+        public async Task<IActionResult> DisplaySearchResults(String SearchInput)
+        {
+            //Return message with searched input  public string .....
+            //return "You searched for: "+ SearchInput; 
+
+            //We want to return a list of filtered results from the Index table
+            return View("Index", await _context.UserComment.Where(j=>j.CommentDescription.Contains(SearchInput)).ToListAsync()); //Go to index view and search the input string
+
         }
 
         // GET: UserComments/Details/5
@@ -52,15 +69,21 @@ namespace UserLoginCRUDWebApp.Controllers
             return View(userComment);
         }
 
+        //Show USER LOGIN PAGE before redirecting to CREATE NEW COMMENT view
+        [Authorize]
         // GET: UserComments/Create
         public IActionResult Create()
         {
+            
             return View();
         }
 
-        // POST: UserComments/Create
+
+
+        // POST: UserComments/Create ADD NEW COMMENTS TO DATABASE!!!!
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,CommentDescription,Details")] UserComment userComment)
@@ -75,6 +98,7 @@ namespace UserLoginCRUDWebApp.Controllers
         }
 
         // GET: UserComments/Edit/5
+        [Authorize]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.UserComment == null)
@@ -93,6 +117,7 @@ namespace UserLoginCRUDWebApp.Controllers
         // POST: UserComments/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,CommentDescription,Details")] UserComment userComment)
@@ -126,6 +151,7 @@ namespace UserLoginCRUDWebApp.Controllers
         }
 
         // GET: UserComments/Delete/5
+        [Authorize]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.UserComment == null)
@@ -146,6 +172,7 @@ namespace UserLoginCRUDWebApp.Controllers
         // POST: UserComments/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Authorize]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             if (_context.UserComment == null)
