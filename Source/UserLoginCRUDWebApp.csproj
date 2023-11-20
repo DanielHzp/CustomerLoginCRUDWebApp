@@ -21,6 +21,7 @@
 
   <ItemGroup>
     <Folder Include="DatabaseSQLSetup\" />
+    <Folder Include="NewFolder\" />
   </ItemGroup>
 
 </Project>
