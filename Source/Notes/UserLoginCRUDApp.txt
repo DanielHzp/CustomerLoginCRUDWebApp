@@ -1,0 +1,191 @@
+
+Active Server Pages Core
+.NET framework consists of runtime engine and libraries for executing programs written in C#
+
+RAZOR IS A PAGE WEB PAGE THAT CONTAINS A MIX OF HTML MARKUP AND DYNAMIS c# EMBEDDED
+ASP Core is full stack
+
+
+
+Models view and Controllers MVC
+MVC Design Pattern avoids mixing presentation logic, business logic, and data access logic together
+
+
+1 Model= Classes (objects with properties) manages behavior and data. Supplies the controller with list of objects using SQL
+
+2 View= web page Razor HTML, manages the display data with HTML CSS code
+
+3 Controller= Connects models, business logic and web pages. Handles page events and navigation between pages
+
+MVC Logic Structure:
+User request: "www.site.com/orders?date=today" --> 
+Router: routes(name: "Orders", url: "{Orders}") --> 
+Controller (Creates list of orders using C#) <--> Model <--> Database (Queries to retrieve data)
+
+Controller <--> View (Use html to display orders list)
+Controller --> User
+
+
+
+
+
+
+
+User System Login Info web app INITIAL SETUP
+
+Create a new ASP.NET Core Web App (Model View Controller)
+Check configure for HTTPS and use individual user accounts authentication
+
+JokeQuestion--> User Comment
+JokeAnswer--> Additional Details 
+Search
+
+Authentication type> Individual User Accounts--> Create database and set up tables in the database for us 
+
+
+ApplicationDbContext created automatically by MVC (only one database context per app)
+
+
+Add MVC Controller (right rick add --> Controllers folder)
+When creating new controllers, we choose the option with view using Entity framework core, then We must add the data context type, indicating ApplicationDbContext
+
+Automatically creates the following pages with partial code and installs required entity framework packages:
+Create, Delete, Details, Edit, Index
+
+By default the controller used is Home, change controller name in URL of the web app
+
+
+
+
+CREATE DATABASE 25:10
+MODEL
+We use database migrations to create the tables 
+
+Go to package manager console which is used to install new dependencies
+We use it for database management using ENTITYFRAMEWORK CORE
+
+1. we use the following command: add-migration MigrationName
+
+Database desing using object relation mapper between a class and a table
+Data Access Object DAO vs Object Relational Mapper ORM for database management
+
+DAO: Manually create tables, wrote your own SQL statements, database admins DBAs
+ORM: computer generate database tables without SQL code, DATABASE IS UPDATED WITH MIGRATIONS,
+Microsoft uses Entity framework as ORM
+
+We initially use ORM for the Userlogin app
+
+Migration are the way of updating databases
+
+
+2. Use update-database for ORM to automatically update database !!!
+**Creates one table for user accounts
+**Create one table for UserComment (One per Class created in Model folder)
+
+Then go to SQL Object Explorer and the App database appears with one table per model class,
+the attributes of each table are the properties declared in the classes
+
+
+
+Each comment is associated to a user 
+
+
+
+ADD ITEMS TO NAV BAR TOP
+
+Go to Shared folder --> Layout HTML with CSS bootstrap classes
+
+Add /a tags for new tabs
+in html "asp-controller" indicate the Controller to use (UserComment controller created manually)
+
+in "asp-action" indicate "index" (Main page created automatically when adding a new controller entity framework) // page to redirect
+
+
+SEARCH TAB/PAGE,In the Layout view use 'asp-action=SearchFormView' created in the controller
+In the controller we need a new method for THIS action 
+Then, we need to create the SearchForm View: right click on method name in the controller and click add view
+Choose 'CREATE' template in razor view configuration
+Select the database model class in Model Class dropdown 
+Choose 'Create as partial view' because we want the form to be part of the main template
+The name of the view must be the same as the controller method name
+
+
+Pick up at 40:58
+
+
+SearchFormView cshtml delete @Model invokation
+
+
+
+49:41 Search method explained 
+In return command we use an arrow function to filter the comments that CONTAIN the searched input
+
+
+Force user login to create a new comment in Index view 54:42
+Import ASP.NetCore.Authorization to add [Authorize] statement on top of controller methods (Create, Create bind database new data, edit, delete)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
