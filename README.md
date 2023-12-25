@@ -16,6 +16,67 @@ One custom view is manually created for the search form tab and different contro
 
 <br/>
 
+<img src="/Source/Images/UserLoginView.PNG">
+
+<br/>
+
+<br/>
+
+<br/>
+
+<img src="/Source/Images/UserLoginViewForgotPass.PNG">
+
+<br/>
+
+<br/>
+
+<br/>
+
+<img src="/Source/Images/UserRegisterView.PNG">
+
+<br/>
+
+<br/>
+
+<br/>
+
+<img src="/Source/Images/UserLoginViewForgotPass.PNG">
+
+<br/>
+
+<br/>
+
+<br/>
+
+<img src="/Source/Images/CustomerFeedbackView.PNG">
+
+<br/>
+
+<br/>
+
+<br/>
+
+<img src="/Source/Images/AddCommentView.PNG">
+
+<br/>
+
+<br/>
+
+<br/>
+
+<img src="/Source/Images/EditCommentView.PNG">
+
+<br/>
+
+<br/>
+
+<br/>
+
+<img src="/Source/Images/SearchUserCommentView.PNG">
+
+
+
+
 
 
 ## Main Controller Methods
