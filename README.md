@@ -8,7 +8,7 @@ One custom view is manually created for the search form tab and different contro
 
 <br/>
 
-<img src="/Source/Images/Welcome Page.PNG" width="700" height="500">
+<img src="/Source/Images/Welcome Page.PNG">
 
 <br/>
 
