@@ -70,7 +70,7 @@ namespace UserLoginCRUDWebApp.Controllers
         }
 
         //Show USER LOGIN PAGE before redirecting to CREATE NEW COMMENT view
-        [Authorize]
+        //[Authorize]
         // GET: UserComments/Create
         public IActionResult Create()
         {
@@ -83,7 +83,7 @@ namespace UserLoginCRUDWebApp.Controllers
         // POST: UserComments/Create ADD NEW COMMENTS TO DATABASE!!!!
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [Authorize]
+       // [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,CommentDescription,Details")] UserComment userComment)
@@ -98,7 +98,7 @@ namespace UserLoginCRUDWebApp.Controllers
         }
 
         // GET: UserComments/Edit/5
-        [Authorize]
+        //[Authorize]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.UserComment == null)
@@ -117,7 +117,7 @@ namespace UserLoginCRUDWebApp.Controllers
         // POST: UserComments/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [Authorize]
+       // [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,CommentDescription,Details")] UserComment userComment)
@@ -151,7 +151,7 @@ namespace UserLoginCRUDWebApp.Controllers
         }
 
         // GET: UserComments/Delete/5
-        [Authorize]
+        //[Authorize]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.UserComment == null)
