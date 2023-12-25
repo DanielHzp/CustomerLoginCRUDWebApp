@@ -11,7 +11,13 @@ One custom view is manually created for the search form tab and different contro
 ## Main Controller Methods
 Some controller methods are customized to resemble data search functionalities:
 https://github.com/DanielHzp/CustomerLoginCRUDWebApp/blob/71f3d26af694af4018e44c0f68ceb6350a3d6d2a/Source/Controllers/UserCommentsController.cs#L23-L30
+<br/>
+
+<br/>
 https://github.com/DanielHzp/CustomerLoginCRUDWebApp/blob/71f3d26af694af4018e44c0f68ceb6350a3d6d2a/Source/Controllers/UserCommentsController.cs#L33-L52
+<br/>
+
+<br/>
 https://github.com/DanielHzp/CustomerLoginCRUDWebApp/blob/71f3d26af694af4018e44c0f68ceb6350a3d6d2a/Source/Controllers/UserCommentsController.cs#L83-L98
 
 <br/>
